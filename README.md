@@ -17,7 +17,7 @@ The goal of this project is to build a basic Multi-Layer Perceptron (MLP) neural
    - Evaluated the model on the test set using accuracy, precision, recall, and a confusion matrix.
 
 ## Results
-- **Test Accuracy:** ~77%
+- **Test Accuracy:** ~78%
 - **Observation:** The model performs well in identifying normal traffic and specific attacks, but the NSL-KDD test set includes novel attack types not seen during training, which creates a realistic challenge for generalization.
 
 ## Requirements
@@ -30,7 +30,10 @@ To run this project, you will need Python and the following libraries:
 - `seaborn`
 
 ## How to Run
-1. Download the NSL-KDD dataset files (`KDDTrain.csv` and `KDDTest.csv`) and place them in the project directory.
-2. Run the Python script:
-   ```bash
-   python nids_model.py
+1. Clone this repository.
+2. Install the required dependencies.
+3. Ensure the NSL-KDD dataset files are located in the `data/` directory.
+4. Open `Deep_Learning_Based_Network_Intrusion_Detection_System.ipynb` in Google Colab or Jupyter Notebook.
+5. Run the notebook cells sequentially.
+
+Make sure the dataset paths in the notebook point to the correct files inside `data/`.
